@@ -18,7 +18,8 @@
 
 		<java.compiler.version>1.8</java.compiler.version>
 
-		<serenity.version>1.9.10</serenity.version>
+		<serenity.version>2.0.35</serenity.version>
+		<serenity.maven.plugin.version>2.0.34</serenity.maven.plugin.version>
 
 		<sl4j.version>1.8.0-beta2</sl4j.version>
 		<junit.version>4.12</junit.version>
@@ -127,7 +128,7 @@
 			<plugin>
 				<groupId>net.serenity-bdd.maven.plugins</groupId>
 				<artifactId>serenity-maven-plugin</artifactId>
-				<version>${serenity.version}</version>
+				<version>${serenity.maven.plugin.version}</version>
 				<executions>
 					<execution>
 						<id>serenity-reports</id>
